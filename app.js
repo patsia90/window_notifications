@@ -13,11 +13,11 @@ function requstNotification(url) {
 requstNotification(requestURL)
 
 function addElement(arr) {
-    return BOX__RADIO.forEach((item) => {
+    BOX__RADIO.forEach((item) => {
         item.addEventListener('click', (event) => {
-            let not = arr.find((elem) => elem.id === event.target.value)
-            console.log(not)
-            BOX__NOTIFICATIONS.append(`${not.id}. ${not.title}`)
+            let index = event.target.value
+            let not = arr.find((item) => item.id == index)
+            console.log(not.title)
         })
     })
 }
