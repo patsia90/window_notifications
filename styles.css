@@ -1,0 +1,48 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.wrapper {
+    background-color: rgb(36, 33, 33);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.box {
+    max-width: 500px;
+    margin: 5em auto;
+    background: rgba(150, 200, 214, 0.438);
+    padding: 20px;
+    border: solid 2px rgb(209, 165, 165);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box__content {
+    display: flex;
+}
+
+.box__notifications {
+    width: 450px;
+    height: 400px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+}
+.box__controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio {
+    width: 15px;
+    height: 15px;
+}
