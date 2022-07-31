@@ -30,6 +30,15 @@ body {
     display: flex;
 }
 
+.box__btn {
+    background-color: rgba(68, 255, 0, 0.627);
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
 .box__notifications {
     width: 450px;
     height: 400px;
@@ -40,6 +49,12 @@ body {
 .box__controls {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.box__controls button {
+    border-radius: 5px;
+    font-size: 18px;
 }
 
 .radio {
